@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		485AD0DD17AFD3FF8B852B19 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A51B98C17F5DB1DFB7B7AD /* libPods.a */; };
+		E93C00091BD24EE70087999C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C00081BD24EE70087999C /* main.m */; };
+		E93C00181BD2525C0087999C /* FTBContent.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C00161BD2525C0087999C /* FTBContent.m */; settings = {ASSET_TAGS = (); }; };
+		E93C001B1BD252740087999C /* FTBTextContent.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C001A1BD252740087999C /* FTBTextContent.m */; settings = {ASSET_TAGS = (); }; };
+		E93C001E1BD252DE0087999C /* FTBImageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C001D1BD252DE0087999C /* FTBImageContent.m */; settings = {ASSET_TAGS = (); }; };
+		E93C00211BD254DE0087999C /* FTBVideoContent.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C00201BD254DE0087999C /* FTBVideoContent.m */; settings = {ASSET_TAGS = (); }; };
+		E93C00241BD255C20087999C /* FTBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C00231BD255C20087999C /* FTBMessage.m */; settings = {ASSET_TAGS = (); }; };
+		E93C00271BD256C80087999C /* FTBComment.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C00261BD256C80087999C /* FTBComment.m */; settings = {ASSET_TAGS = (); }; };
+		E93C002A1BD256FA0087999C /* FTBPost.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C00291BD256FA0087999C /* FTBPost.m */; settings = {ASSET_TAGS = (); }; };
+		E93C002D1BD258D20087999C /* FTBFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C002C1BD258D20087999C /* FTBFeed.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E93C00031BD24EE70087999C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03A51B98C17F5DB1DFB7B7AD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5335188BAA674CEFDB192034 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D9044CB1902E2C662D9711CA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E93C00051BD24EE70087999C /* Futubra */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Futubra; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93C00081BD24EE70087999C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E93C00151BD2525C0087999C /* FTBContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBContent.h; sourceTree = "<group>"; };
+		E93C00161BD2525C0087999C /* FTBContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBContent.m; sourceTree = "<group>"; };
+		E93C00191BD252740087999C /* FTBTextContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBTextContent.h; sourceTree = "<group>"; };
+		E93C001A1BD252740087999C /* FTBTextContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBTextContent.m; sourceTree = "<group>"; };
+		E93C001C1BD252DE0087999C /* FTBImageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBImageContent.h; sourceTree = "<group>"; };
+		E93C001D1BD252DE0087999C /* FTBImageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBImageContent.m; sourceTree = "<group>"; };
+		E93C001F1BD254DE0087999C /* FTBVideoContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBVideoContent.h; sourceTree = "<group>"; };
+		E93C00201BD254DE0087999C /* FTBVideoContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBVideoContent.m; sourceTree = "<group>"; };
+		E93C00221BD255C20087999C /* FTBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBMessage.h; sourceTree = "<group>"; };
+		E93C00231BD255C20087999C /* FTBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBMessage.m; sourceTree = "<group>"; };
+		E93C00251BD256C80087999C /* FTBComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBComment.h; sourceTree = "<group>"; };
+		E93C00261BD256C80087999C /* FTBComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBComment.m; sourceTree = "<group>"; };
+		E93C00281BD256FA0087999C /* FTBPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBPost.h; sourceTree = "<group>"; };
+		E93C00291BD256FA0087999C /* FTBPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBPost.m; sourceTree = "<group>"; };
+		E93C002B1BD258D20087999C /* FTBFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBFeed.h; sourceTree = "<group>"; };
+		E93C002C1BD258D20087999C /* FTBFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBFeed.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E93C00021BD24EE70087999C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485AD0DD17AFD3FF8B852B19 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF126DCF21ED80676AFF31F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A51B98C17F5DB1DFB7B7AD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8D1AD655B51269B8070A508 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9044CB1902E2C662D9711CA /* Pods.debug.xcconfig */,
+				5335188BAA674CEFDB192034 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E93C00061BD24EE70087999C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E93C00051BD24EE70087999C /* Futubra */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E93C00071BD24EE70087999C /* Futubra */ = {
+			isa = PBXGroup;
+			children = (
+				E93C00131BD2525C0087999C /* Domain */,
+				E93C00081BD24EE70087999C /* main.m */,
+			);
+			path = Futubra;
+			sourceTree = "<group>";
+		};
+		E93C00131BD2525C0087999C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E93C00141BD2525C0087999C /* Content */,
+				E93C00171BD2525C0087999C /* Messages */,
+				E93C002B1BD258D20087999C /* FTBFeed.h */,
+				E93C002C1BD258D20087999C /* FTBFeed.m */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E93C00141BD2525C0087999C /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E93C00151BD2525C0087999C /* FTBContent.h */,
+				E93C00161BD2525C0087999C /* FTBContent.m */,
+				E93C00191BD252740087999C /* FTBTextContent.h */,
+				E93C001A1BD252740087999C /* FTBTextContent.m */,
+				E93C001C1BD252DE0087999C /* FTBImageContent.h */,
+				E93C001D1BD252DE0087999C /* FTBImageContent.m */,
+				E93C001F1BD254DE0087999C /* FTBVideoContent.h */,
+				E93C00201BD254DE0087999C /* FTBVideoContent.m */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		E93C00171BD2525C0087999C /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				E93C00221BD255C20087999C /* FTBMessage.h */,
+				E93C00231BD255C20087999C /* FTBMessage.m */,
+				E93C00251BD256C80087999C /* FTBComment.h */,
+				E93C00261BD256C80087999C /* FTBComment.m */,
+				E93C00281BD256FA0087999C /* FTBPost.h */,
+				E93C00291BD256FA0087999C /* FTBPost.m */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		E93CFFFC1BD24EE70087999C = {
+			isa = PBXGroup;
+			children = (
+				E93C00071BD24EE70087999C /* Futubra */,
+				E93C00061BD24EE70087999C /* Products */,
+				E8D1AD655B51269B8070A508 /* Pods */,
+				CEF126DCF21ED80676AFF31F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E93C00041BD24EE70087999C /* Futubra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93C000C1BD24EE70087999C /* Build configuration list for PBXNativeTarget "Futubra" */;
+			buildPhases = (
+				4A46BED939A5EA1A2405C4DB /* Check Pods Manifest.lock */,
+				E93C00011BD24EE70087999C /* Sources */,
+				E93C00021BD24EE70087999C /* Frameworks */,
+				E93C00031BD24EE70087999C /* CopyFiles */,
+				1CFC4669A6041C86FF094B32 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Futubra;
+			productName = Futubra;
+			productReference = E93C00051BD24EE70087999C /* Futubra */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E93CFFFD1BD24EE70087999C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Pavel Osipov";
+				TargetAttributes = {
+					E93C00041BD24EE70087999C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E93C00001BD24EE70087999C /* Build configuration list for PBXProject "Futubra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E93CFFFC1BD24EE70087999C;
+			productRefGroup = E93C00061BD24EE70087999C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E93C00041BD24EE70087999C /* Futubra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CFC4669A6041C86FF094B32 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A46BED939A5EA1A2405C4DB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E93C00011BD24EE70087999C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93C00241BD255C20087999C /* FTBMessage.m in Sources */,
+				E93C002D1BD258D20087999C /* FTBFeed.m in Sources */,
+				E93C00181BD2525C0087999C /* FTBContent.m in Sources */,
+				E93C001B1BD252740087999C /* FTBTextContent.m in Sources */,
+				E93C00211BD254DE0087999C /* FTBVideoContent.m in Sources */,
+				E93C00271BD256C80087999C /* FTBComment.m in Sources */,
+				E93C001E1BD252DE0087999C /* FTBImageContent.m in Sources */,
+				E93C002A1BD256FA0087999C /* FTBPost.m in Sources */,
+				E93C00091BD24EE70087999C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E93C000A1BD24EE70087999C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E93C000B1BD24EE70087999C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E93C000D1BD24EE70087999C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9044CB1902E2C662D9711CA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E93C000E1BD24EE70087999C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5335188BAA674CEFDB192034 /* Pods.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E93C00001BD24EE70087999C /* Build configuration list for PBXProject "Futubra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93C000A1BD24EE70087999C /* Debug */,
+				E93C000B1BD24EE70087999C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93C000C1BD24EE70087999C /* Build configuration list for PBXNativeTarget "Futubra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93C000D1BD24EE70087999C /* Debug */,
+				E93C000E1BD24EE70087999C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E93CFFFD1BD24EE70087999C /* Project object */;
+}
